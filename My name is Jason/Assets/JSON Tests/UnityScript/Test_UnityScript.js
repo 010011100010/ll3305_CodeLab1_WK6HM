@@ -12,7 +12,7 @@ function P( aText : String)
 
 function Test()
 {
-    var N = JSONNode.Parse("{\"name\":\"test\", \"array\":[1,{\"data\":\"value\"}]}");
+   /* var N = JSONNode.Parse("{\"name\":\"test\", \"array\":[1,{\"data\":\"value\"}]}");
     N["array"][1]["Foo"] = "Bar";
     P("'nice formatted' string representation of the JSON tree:");
     P(N.ToString(""));
@@ -73,6 +73,7 @@ function Test()
     P("I[\"data\"][0]            : " + I["data"][0]);
     P("I[\"data\"][0].ToString() : " + I["data"][0].ToString());
     P("I[\"data\"][0].Value      : " + I["data"][0].Value);
+    */
 }
 
 function Start()

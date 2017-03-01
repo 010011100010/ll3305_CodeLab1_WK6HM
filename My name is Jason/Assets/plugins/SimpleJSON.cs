@@ -434,10 +434,10 @@ namespace SimpleJSON
         {
             throw new Exception("Can't use compressed functions. You need include the SharpZipLib and uncomment the define at the top of SimpleJSON");
         }
-        public string SaveToCompressedBase64()
+       /* public string SaveToCompressedBase64()
         {
             throw new Exception("Can't use compressed functions. You need include the SharpZipLib and uncomment the define at the top of SimpleJSON");
-        }
+        } */
         #endif
         
         public void SaveToFile(string aFileName)
